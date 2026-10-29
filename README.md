@@ -1,25 +1,20 @@
 # Course template
 
-This is a template for SIB-training course repository when there is no website attached that you can use to [create a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This repository contains the material of the [https://www.sib.swiss/training/course/20261211_BLLMS](https://www.sib.swiss/training/course/BLLMS) course of the SIB.
 
-> If you want to have a repository with a website attached go to the [course_website_template](https://github.com/sib-swiss/course_website_template) instead.
+## pre-requisites
 
-This templates offers a number of basic elements that should be common to all course repository, 
-like a readme, a file describing the license, or giving zenodo information when publishing a release.
-
- * README.md    : this file. It will be presented on the front page of your repository.
- * .zenodo.json : JSON file to preset the data when publishing a release with zenodo. Change the course title and content creator part.
- * LICENSE.md   : CC-BY-4.0 license ; this file is used by github to show this on your repository
+This course is designed for PhD students, postdoctoral and other researchers in the life sciences, from both academia and industry, who already have practical experience with deep learning and would like to use pre-trained biological language models in their own analyses.
 
 
+In order to follow this course you will need to have access to a GPU, with enabled CUDA bindings and libraries.
 
-We also propose three folders to organize course content.
+You can do so either either by installing them on your own computer or by using either [google colab](https://colab.research.google.com/) (tesla T4 GPUs available most of the time) or [kaggle](https://www.kaggle.com/) (T4 GPUs available 30h/week)
 
- * slides/ : put there the pdf file of your slides
- * data/   : put there data files used in demonstrations, exercises, and hands-on
- * assets/ : put there "resource" files such as the pptx files of your slides, some images files, pdfs which are not directly part of the slides (such as a manual, a cheatsheet, ...), ...
+> NB: for the last two options you will have to create an account with the specified provider.
 
 
+---
 
 Any contribution to this course material is highly appreciated 👍. 
-Please [create an issue](https://github.com/sib-swiss/course_template/issues) or submit a pull request to do so.
+Please [create an issue](https://github.com/sib-swiss/bio-llm-training/issues) or submit a pull request to do so.
